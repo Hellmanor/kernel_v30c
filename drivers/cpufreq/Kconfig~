@@ -292,12 +292,6 @@ config CPU_FREQ_GOV_INTERACTIVEX
 	help
 	  'interactiveX' - Modified version of interactive with sleep+wake code.
 
-config CPU_FREQ_GOV_INTELLIDEMAND
-	tristate "'intellidemand' cpufreq governor"
-	depends on CPU_FREQ
-	help
-	  'intellidemand' - an intelligent ondemand governor
-
 config CPU_FREQ_MIN_TICKS
 	int "Ticks between governor polling interval."
 	default 10
