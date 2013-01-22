@@ -62,11 +62,11 @@ struct i2c_client *bb2802_i2c_client;//2011205 kyungyoon.kim@lge.com lcd resume 
 #define BD2812_PIN_FUNC_SETUP		0x41
 
 #define BD2802_CURRENT_WHITE_PEAK		0x5A /* 18mA */
-#define BD2802_CURRENT_WHITE_MAX		0x01 /* 7mA */
+#define BD2802_CURRENT_WHITE_MAX		0x32 /* 10mA */
 //--[[ LGE_UBIQUIX_MODIFIED_START : shyun@ubiquix.com [2011.09.09] - Merge from Black_Froyo MR Ver.
-#define BD2802_CURRENT_BLUE_MAX			0x01 /* 7mA */
-#define BD2802_CURRENT_WHITE_MIN		0x01 /* 0.5mA */	// dajin.kim@lge.com chagned 0x05 -> 0x00 for lED off
-#define BD2802_CURRENT_BLUE_MIN			0x01 /* 1mA */
+#define BD2802_CURRENT_BLUE_MAX			0x00 /* 10mA */
+#define BD2802_CURRENT_WHITE_MIN		0x03 /* 0mA */	// dajin.kim@lge.com chagned 0x05 -> 0x00 for lED off
+#define BD2802_CURRENT_BLUE_MIN			0x00 /* 1mA */
 //--]] LGE_UBIQUIX_MODIFIED_END : shyun@ubiquix.com [2011.09.09]- Merge from Black_Froyo MR Ver.
 #define BD2802_CURRENT_000		0x00 /* 0.0mA */
 
